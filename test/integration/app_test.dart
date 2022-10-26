@@ -6,7 +6,7 @@ import 'package:network_image_mock/network_image_mock.dart';
 void main() {
   testWidgets('test app startup', (WidgetTester tester) async {
     mockNetworkImagesFor(() async {
-      await tester.pumpWidget(App());
+      await tester.pumpWidget(const App());
 
       final mockLocation = MockLocation.fetchAny();
 

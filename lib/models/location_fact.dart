@@ -1,4 +1,3 @@
-import './location_fact.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'location_fact.g.dart';
